@@ -1,0 +1,18 @@
+name = "vodka-panel"
+main = "_worker.js"
+compatibility_date = "2026-09-01"
+
+[dev]
+port = 8787
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Optional D1: add a real database binding after creating your own database.
+# [[d1_databases]]
+# binding = "IOT_DB"
+# database_name = "vodka-panel-db"
+# database_id = "YOUR_REAL_D1_DATABASE_ID"
+
+
